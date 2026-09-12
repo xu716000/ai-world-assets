@@ -1,0 +1,249 @@
+{
+  "version": "1.0",
+  "project": "AI World",
+  "description": "标准颜色配置与调色板",
+  "created": "2026-09-12",
+  
+  "color_groups": {
+    "blue_faction": {
+      "name": "蓝方（我方）",
+      "description": "蓝色系科幻风格",
+      "colors": {
+        "primary": {
+          "name": "主色",
+          "hex": "#0080FF",
+          "rgb": [0, 128, 255],
+          "usage": "建筑、单位主体"
+        },
+        "light": {
+          "name": "亮色",
+          "hex": "#00BFFF",
+          "rgb": [0, 191, 255],
+          "usage": "高亮、光照部分"
+        },
+        "outline": {
+          "name": "霓虹描边",
+          "hex": "#0000FF",
+          "rgb": [0, 0, 255],
+          "usage": "2px外描边"
+        },
+        "shadow": {
+          "name": "阴影",
+          "hex": "#001A4D",
+          "rgb": [0, 26, 77],
+          "usage": "硬阴影、凹陷部分"
+        },
+        "highlight": {
+          "name": "高亮/青蓝",
+          "hex": "#00FFFF",
+          "rgb": [0, 255, 255],
+          "usage": "特殊高亮、边缘光"
+        }
+      }
+    },
+    
+    "red_faction": {
+      "name": "红方（敌方）",
+      "description": "红色系危险风格",
+      "colors": {
+        "primary": {
+          "name": "主色",
+          "hex": "#CC0000",
+          "rgb": [204, 0, 0],
+          "usage": "敌方建筑、单位主体"
+        },
+        "light": {
+          "name": "亮色",
+          "hex": "#FF4444",
+          "rgb": [255, 68, 68],
+          "usage": "高亮、光照部分"
+        },
+        "outline": {
+          "name": "霓虹描边",
+          "hex": "#FF0000",
+          "rgb": [255, 0, 0],
+          "usage": "2px外描边"
+        },
+        "shadow": {
+          "name": "阴影",
+          "hex": "#660000",
+          "rgb": [102, 0, 0],
+          "usage": "硬阴影、凹陷部分"
+        },
+        "highlight": {
+          "name": "高亮",
+          "hex": "#FF6666",
+          "rgb": [255, 102, 102],
+          "usage": "特殊高亮、边缘光"
+        }
+      }
+    },
+    
+    "resources": {
+      "name": "资源图标色",
+      "description": "8种资源的配色方案",
+      "colors": {
+        "ore": {
+          "name": "矿石",
+          "primary": {
+            "hex": "#00FFFF",
+            "rgb": [0, 255, 255],
+            "description": "蓝晶"
+          },
+          "shadow": {
+            "hex": "#0088FF",
+            "rgb": [0, 136, 255],
+            "description": "深蓝阴影"
+          }
+        },
+        "metal": {
+          "name": "金属",
+          "primary": {
+            "hex": "#E0E0E0",
+            "rgb": [224, 224, 224],
+            "description": "银灰"
+          },
+          "shadow": {
+            "hex": "#808080",
+            "rgb": [128, 128, 128],
+            "description": "深灰"
+          }
+        },
+        "wood": {
+          "name": "木材",
+          "primary": {
+            "hex": "#CD853F",
+            "rgb": [205, 133, 63],
+            "description": "棕色"
+          },
+          "shadow": {
+            "hex": "#8B4513",
+            "rgb": [139, 69, 19],
+            "description": "深棕"
+          }
+        },
+        "fuel": {
+          "name": "燃料",
+          "primary": {
+            "hex": "#FFD700",
+            "rgb": [255, 215, 0],
+            "description": "黄金"
+          },
+          "shadow": {
+            "hex": "#B8A000",
+            "rgb": [184, 160, 0],
+            "description": "深金"
+          }
+        },
+        "power": {
+          "name": "电力",
+          "primary": {
+            "hex": "#FFFF00",
+            "rgb": [255, 255, 0],
+            "description": "黄色"
+          },
+          "secondary": {
+            "hex": "#0080FF",
+            "rgb": [0, 128, 255],
+            "description": "蓝色闪电"
+          }
+        },
+        "population": {
+          "name": "人口",
+          "primary": {
+            "hex": "#00FF00",
+            "rgb": [0, 255, 0],
+            "description": "绿色"
+          },
+          "shadow": {
+            "hex": "#008800",
+            "rgb": [0, 136, 0],
+            "description": "深绿"
+          }
+        },
+        "credit": {
+          "name": "信用点",
+          "primary": {
+            "hex": "#FFB700",
+            "rgb": [255, 183, 0],
+            "description": "金色"
+          },
+          "shadow": {
+            "hex": "#997700",
+            "rgb": [153, 119, 0],
+            "description": "深金"
+          }
+        },
+        "tech": {
+          "name": "科技",
+          "primary": {
+            "hex": "#A0A0A0",
+            "rgb": [160, 160, 160],
+            "description": "机械灰"
+          },
+          "shadow": {
+            "hex": "#606060",
+            "rgb": [96, 96, 96],
+            "description": "深灰"
+          }
+        }
+      }
+    },
+    
+    "effects": {
+      "name": "战斗特效色",
+      "description": "爆炸、火花、闪光等特效颜色",
+      "colors": {
+        "muzzle_flash": {
+          "name": "炮口闪光",
+          "colors": ["#FFFF00", "#FFA500", "#FF4500"]
+        },
+        "explosion": {
+          "name": "爆炸",
+          "colors": ["#FF0000", "#FFA500", "#FFFF00", "#FFD700"]
+        },
+        "spark": {
+          "name": "火花",
+          "colors": ["#FFFF00", "#FFA500", "#FF6347"]
+        },
+        "hit_flash": {
+          "name": "受击白闪",
+          "colors": ["#FFFFFF", "#FFFFCC"]
+        }
+      }
+    }
+  },
+  
+  "guidelines": {
+    "outline": {
+      "width": 2,
+      "style": "neon",
+      "description": "所有资源必须有2像素的霓虹描边"
+    },
+    "shadow": {
+      "style": "hard",
+      "angle": 225,
+      "description": "硬阴影，左上45°光源"
+    },
+    "lighting": {
+      "angle_degrees": 45,
+      "direction": "top-left",
+      "intensity": "high_contrast"
+    },
+    "restrictions": [
+      "禁止渐变效果（只用色块）",
+      "禁止文字和水印",
+      "禁止软边阴影（只用硬阴影）",
+      "禁止半透明过渡",
+      "禁止复杂细节"
+    ]
+  },
+  
+  "palette_exports": {
+    "description": "可直接导入到绘图软件的调色板",
+    "aseprite": "palette_aseprite.ase",
+    "photoshop": "palette_photoshop.aco",
+    "gimp": "palette_gimp.gpl",
+    "krita": "palette_krita.kpl"
+  }
+}
